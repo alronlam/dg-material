@@ -24,9 +24,10 @@ export default class LessonPage extends Component {
             <div>
                 <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '3em'}}>
                     <Header as='h1'> {lesson.title} </Header>
-                    <p>
-                        {lesson.content}
-                    </p>
+                    {/*<p>*/}
+                        {/*{lesson.content}*/}
+                    {/*</p>*/}
+                    <div dangerouslySetInnerHTML={{__html: lesson.content}} />
 
                 </Container>
                 <Container textAlign={"center"}>
