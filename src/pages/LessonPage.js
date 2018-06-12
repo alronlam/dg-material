@@ -22,7 +22,7 @@ export default class LessonPage extends Component {
 
         return (
             <div>
-                <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '1em'}}>
+                <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '3em'}}>
                     <Header as='h1'> {lesson.title} </Header>
                     <p>
                         {lesson.content}

@@ -10,7 +10,7 @@ export default class App extends Component {
 
     render() {
         return (
-            <Container text>
+            <Container text style={{ marginBottom: '3em'}}>
                 <Container fluid textAlign="center">
                     <Segment inverted>
                         <Header as='a' href="/" inverted>
