@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Accordion, Container, Divider, Header, Icon, List} from 'semantic-ui-react'
+import {Accordion, Icon, List} from 'semantic-ui-react'
 
 
 export default class LessonGroups extends Component {
@@ -54,14 +54,9 @@ export default class LessonGroups extends Component {
         const {groups} = this.state
 
         return (
-            <Container fluid>
-                <Header as='h2' textAlign='center'>Life on Life </Header>
-                <Header sub textAlign='center'>Devotional Group Material</Header>
-                <Divider hidden/>
-                <Accordion fluid styled>
-                    {groups.map((item, index) => this.renderGroup(item, index))}
-                </Accordion>
-            </Container>
+            <Accordion fluid styled>
+                {groups.map((item, index) => this.renderGroup(item, index))}
+            </Accordion>
         )
 
     }

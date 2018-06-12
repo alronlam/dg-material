@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Container, Header} from 'semantic-ui-react'
 import LessonsAPI from "./api";
 
 export default class LessonPage extends Component {
@@ -20,12 +21,12 @@ export default class LessonPage extends Component {
             return "Error, lesson not found!"
 
         return (
-            <div>
-                <h1>{lesson.title}</h1>
+            <Container text style={{marginTop: '7em'}}>
+                <Header as='h1'> {lesson.title} </Header>
                 <p>
                     {lesson.content}
                 </p>
-            </div>
+            </Container>
         )
 
     }

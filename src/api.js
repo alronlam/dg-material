@@ -1,32 +1,41 @@
+import {lesson_intro_content} from "./lessons/Lesson_Intro";
+import {lesson_1_1_content} from "./lessons/Lesson_1_1";
+import {lesson_1_2_content} from "./lessons/Lesson_1_2";
+import {lesson_2_1_content} from "./lessons/Lesson_2_1";
+import {lesson_2_2_content} from "./lessons/Lesson_2_2";
+import {lesson_2_3_content} from "./lessons/Lesson_2_3";
+import {lesson_3_1_content} from "./lessons/Lesson_3_1";
+import {lesson_3_2_content} from "./lessons/Lesson_3_2";
+
 const LessonsAPI = {
 
     groupedLessons: [
         {
             groupTitle: 'Introduction',
             lessons: [
-                {slug: "lol-intro", title: "What is the story of life?", content: "Content"},
+                {slug: "lol-intro", title: "What is the story of life?", content: lesson_intro_content},
             ]
         },
         {
-            groupTitle: 'LessonPage 1: Creation',
+            groupTitle: 'Lesson 1: Creation',
             lessons: [
-                {slug: "creation-part-one", title: "The Author of Life", content: "Content"},
-                {slug: "creation-part-two", title: "Made in His Image and Likeness", content: "Content"},
+                {slug: "creation-part-one", title: "The Author of Life", content: lesson_1_1_content},
+                {slug: "creation-part-two", title: "Made in His Image and Likeness", content: lesson_1_2_content},
             ]
         },
         {
-            groupTitle: 'LessonPage 2: Fall',
+            groupTitle: 'Lesson 2: Fall',
             lessons: [
-                {slug: "fall-part-one", title: "Original Sin", content: "Content"},
-                {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: "Content"},
-                {slug: "fall-part-three", title: "Consequences of Sin - Part Two", content: "Content"},
+                {slug: "fall-part-one", title: "Original Sin", content: lesson_2_1_content},
+                {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: lesson_2_2_content},
+                {slug: "fall-part-three", title: "Consequences of Sin - Part Two", content: lesson_2_3_content},
             ]
         },
         {
-            groupTitle: 'LessonPage 3: Redemption',
+            groupTitle: 'Lesson 3: Redemption',
             lessons: [
-                {slug: "redemption-part-one", title: "Christ the Savior", content: "Content"},
-                {slug: "redemption-part-two", title: "The New Covenant", content: "Content"},
+                {slug: "redemption-part-one", title: "Christ the Savior", content: lesson_3_1_content},
+                {slug: "redemption-part-two", title: "The New Covenant", content: lesson_3_2_content},
             ]
         }
 
