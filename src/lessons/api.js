@@ -1,11 +1,11 @@
-import {lesson_intro_content} from "./lessons/Lesson_Intro";
-import {lesson_1_1_content} from "./lessons/Lesson_1_1";
-import {lesson_1_2_content} from "./lessons/Lesson_1_2";
-import {lesson_2_1_content} from "./lessons/Lesson_2_1";
-import {lesson_2_2_content} from "./lessons/Lesson_2_2";
-import {lesson_2_3_content} from "./lessons/Lesson_2_3";
-import {lesson_3_1_content} from "./lessons/Lesson_3_1";
-import {lesson_3_2_content} from "./lessons/Lesson_3_2";
+import {lesson_intro_content} from "./Lesson_Intro";
+import {lesson_1_1_content} from "./Lesson_1_1";
+import {lesson_1_2_content} from "./Lesson_1_2";
+import {lesson_2_1_content} from "./Lesson_2_1";
+import {lesson_2_2_content} from "./Lesson_2_2";
+import {lesson_2_3_content} from "./Lesson_2_3";
+import {lesson_3_1_content} from "./Lesson_3_1";
+import {lesson_3_2_content} from "./Lesson_3_2";
 
 const LessonsAPI = {
 

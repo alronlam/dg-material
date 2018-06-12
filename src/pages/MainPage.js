@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import LessonGroups from "./LessonGroups";
-import LessonsAPI from "./api"
+import LessonGroups from "../components/LessonGroups";
+import LessonsAPI from "../lessons/api"
 
 
 export default class MainPage extends Component {
