@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Accordion, Container, Divider, Header, Icon} from 'semantic-ui-react'
+import {Accordion, Container, Divider, Header, Icon, List} from 'semantic-ui-react'
 
 
 export default class LessonGroups extends Component {
@@ -26,7 +26,7 @@ export default class LessonGroups extends Component {
 
     renderLesson(lesson) {
         return (
-            <p key={lesson.slug}>{lesson.title}</p>
+            <List.Item as='a' key={lesson.slug} href={lesson.slug}>{lesson.title}</List.Item>
         )
     }
 
@@ -42,7 +42,9 @@ export default class LessonGroups extends Component {
                     {groupTitle}
                 </Accordion.Title>
                 <Accordion.Content active={activeIndex === index}>
-                    {lessons.map(item => this.renderLesson(item))}
+                    <List selection animated>
+                        {lessons.map(item => this.renderLesson(item))}
+                    </List>
                 </Accordion.Content>
             </div>
         )

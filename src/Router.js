@@ -10,7 +10,7 @@ export default class Router extends Component {
             <BrowserRouter>
                 <Switch>
                     <Route exact path='/' component={MainPage}/>
-                    <Route path='/lesson/:slug' component={LessonPage}/>
+                    <Route path='/:slug' component={LessonPage}/>
                 </Switch>
             </BrowserRouter>
         )
