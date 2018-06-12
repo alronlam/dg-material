@@ -1,16 +1,20 @@
 import 'semantic-ui-css/semantic.min.css';
 import React, {Component} from 'react';
 import './App.css';
-import {Button, Container, Header, Icon, Segment} from 'semantic-ui-react'
+import {Container, Header, Segment} from 'semantic-ui-react'
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import LessonPage from "./pages/LessonPage"
 import MainPage from "./pages/MainPage";
 
 export default class App extends Component {
+    constructor(props){
+        super(props)
+        document.title = "Life on Life"
+    }
 
     render() {
         return (
-            <Container text style={{ marginBottom: '3em'}}>
+            <Container text style={{marginBottom: '3em'}}>
                 <Container fluid textAlign="center">
                     <Segment inverted>
                         <Header as='a' href="/" inverted>
