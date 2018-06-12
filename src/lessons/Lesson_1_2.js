@@ -1,9 +1,9 @@
-export const lesson_1_2_content = "<strong>LEAD ON</strong><br/>" +
+export const lesson_1_2_content = "<h3>LEAD ON</h3>" +
     "Question: " +
     "Have you experienced being expected by your family to do something or be someone in order to represent them? <br/>" +
     "<br/>" +
     "<br/>" +
-    "<strong>OPEN WORD</strong><br/>" +
+    "<h3>OPEN WORD</h3>" +
     "Humanity is made in God’s image -- both male and female (Genesis 1:26-27). To be an “image” of someone means to be a representative or representation of them. We see in Genesis that Adam and Eve were created by God to be the ones to show to the world who God is and what He is like. So we, human beings, are like God, though not fully, but only to some degree, and yet truly. This has a lot of important implications for us today. Here are a few of them:<br/>" +
     "<br/>" +
     "<b><i>Image of God: unique to humans</i></b><br/>" +
@@ -25,7 +25,7 @@ export const lesson_1_2_content = "<strong>LEAD ON</strong><br/>" +
     "<b><i>Jesus, God’s perfect image</i></b><br/>" +
     "Christ is the very radiance of the glory of God and the exact imprint of His nature -- indeed, God’s perfect image (see Hebrews 1;3). When Jesus Christ came, we also find the beginning of a new creation (see 2 Corinthians 5:17), and, therefore, being in union with Him brings a restoration of the image of God in man, as it was damaged by sin. <br/>" +
     "<br/>" +
-    "<strong>LIVE OUT</strong><br/>" +
+    "<h3>LIVE OUT</h3>" +
     "Since we have become new creation in Christ, we can now image forth God’s “excellencies” as we live a life of worship. Give three (3) ways you can display God’s image in your:<br/>" +
     "<ul>"+
     "<li>Family</li><br/>" +
