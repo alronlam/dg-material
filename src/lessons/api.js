@@ -13,7 +13,7 @@ const LessonsAPI = {
         {
             groupTitle: 'Introduction',
             lessons: [
-                {slug: "lol-intro", title: "What is the story of life?", content: lesson_intro_content},
+                {slug: "lol-intro", title: "The Story of Life", content: lesson_intro_content},
             ]
         },
         {
