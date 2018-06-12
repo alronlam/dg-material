@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {render} from 'react-dom'
 import LessonsAPI from "./api";
 
-export default class Lesson extends Component {
+export default class LessonPage extends Component {
 
     constructor(props) {
         super(props)
@@ -10,7 +9,7 @@ export default class Lesson extends Component {
         const {slug} = this.props.match.params
 
         this.state = {
-            lesson: LessonsAPI.get(slug)
+            lesson: LessonsAPI.getLesson(slug)
         }
     }
 

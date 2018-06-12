@@ -8,14 +8,14 @@ const LessonsAPI = {
             ]
         },
         {
-            groupTitle: 'Lesson 1: Creation',
+            groupTitle: 'LessonPage 1: Creation',
             lessons: [
                 {slug: "creation-part-one", title: "The Author of Life", content: "Content"},
                 {slug: "creation-part-two", title: "Made in His Image and Likeness", content: "Content"},
             ]
         },
         {
-            groupTitle: 'Lesson 2: Fall',
+            groupTitle: 'LessonPage 2: Fall',
             lessons: [
                 {slug: "fall-part-one", title: "Original Sin", content: "Content"},
                 {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: "Content"},
@@ -23,7 +23,7 @@ const LessonsAPI = {
             ]
         },
         {
-            groupTitle: 'Lesson 3: Redemption',
+            groupTitle: 'LessonPage 3: Redemption',
             lessons: [
                 {slug: "redemption-part-one", title: "Christ the Savior", content: "Content"},
                 {slug: "redemption-part-two", title: "The New Covenant", content: "Content"},
@@ -33,11 +33,19 @@ const LessonsAPI = {
 
     ],
     getLesson: function (slug) {
-        for (let groupedLesson in this.groupedLessons)
-            for (let lesson in groupedLesson.lessons)
-                if (lesson.slug === slug)
-                    return lesson
-        return null
+
+        var matchedLesson
+
+        this.groupedLessons.forEach(function (group) {
+            group.lessons.forEach(function (lesson) {
+                console.log(lesson.slug === slug)
+                if (lesson.slug === slug) {
+                    matchedLesson = lesson
+                }
+            })
+        })
+
+        return matchedLesson
     },
     allGroups: function () {
         return this.groupedLessons
