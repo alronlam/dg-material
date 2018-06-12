@@ -19,7 +19,7 @@ export default class App extends Component {
                     <Segment inverted>
                         <Header as='a' href="/" inverted>
                             Life on Life <br/>
-                            Devotional Group Material
+                            Discipleship Group Material
                         </Header>
                     </Segment>
                 </Container>
