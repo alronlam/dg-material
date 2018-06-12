@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {Container, Header} from 'semantic-ui-react'
+import {Button, Container, Header, Icon} from 'semantic-ui-react'
 import LessonsAPI from "../lessons/api";
 
 export default class LessonPage extends Component {
@@ -21,12 +21,21 @@ export default class LessonPage extends Component {
             return "Error, lesson not found!"
 
         return (
-            <Container text textAlign="justified" style={{marginTop: '7em'}}>
-                <Header as='h1'> {lesson.title} </Header>
-                <p>
-                    {lesson.content}
-                </p>
-            </Container>
+            <div>
+                <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '1em'}}>
+                    <Header as='h1'> {lesson.title} </Header>
+                    <p>
+                        {lesson.content}
+                    </p>
+
+                </Container>
+                <Container textAlign={"center"}>
+                    <Button color='black' icon labelPosition='left' href={'/'}>
+                        <Icon name='backward'/>
+                        Back
+                    </Button>
+                </Container>
+            </div>
         )
 
     }
