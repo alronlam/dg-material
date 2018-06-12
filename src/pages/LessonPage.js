@@ -21,7 +21,7 @@ export default class LessonPage extends Component {
             return "Error, lesson not found!"
 
         return (
-            <Container text style={{marginTop: '7em'}}>
+            <Container text textAlign="justified" style={{marginTop: '7em'}}>
                 <Header as='h1'> {lesson.title} </Header>
                 <p>
                     {lesson.content}
