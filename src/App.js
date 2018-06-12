@@ -1,21 +1,32 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import 'semantic-ui-css/semantic.min.css';
+import React, {Component} from 'react';
 import './App.css';
+import {Button, Container, Header, Icon, Segment} from 'semantic-ui-react'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import LessonPage from "./pages/LessonPage"
+import MainPage from "./pages/MainPage";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+export default class App extends Component {
+
+    render() {
+        return (
+            <Container text style={{ marginBottom: '3em'}}>
+                <Container fluid textAlign="center">
+                    <Segment inverted>
+                        <Header as='a' href="/" inverted>
+                            Life on Life <br/>
+                            Devotional Group Material
+                        </Header>
+                    </Segment>
+                </Container>
+                <BrowserRouter>
+                    <Switch>
+                        <Route exact path='/' component={MainPage}/>
+                        <Route path='/:slug' component={LessonPage}/>
+                    </Switch>
+                </BrowserRouter>
+            </Container>
+        )
+    }
 }
 
-export default App;
