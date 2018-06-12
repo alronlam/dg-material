@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {Button, Container, Header, Icon} from 'semantic-ui-react'
 import LessonsAPI from "../lessons/api";
+import Divider from "semantic-ui-react/dist/es/elements/Divider/Divider";
 
 export default class LessonPage extends Component {
 
@@ -24,9 +25,7 @@ export default class LessonPage extends Component {
             <div>
                 <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '3em'}}>
                     <Header as='h1'> {lesson.title} </Header>
-                    {/*<p>*/}
-                        {/*{lesson.content}*/}
-                    {/*</p>*/}
+                    <Divider/>
                     <div dangerouslySetInnerHTML={{__html: lesson.content}} />
 
                 </Container>
