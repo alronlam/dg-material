@@ -24,7 +24,7 @@ export default class LessonPage extends Component {
         return (
             <div>
                 <Container text textAlign="justified" style={{marginTop: '3em', marginBottom: '3em'}}>
-                    <Header as='h1'> {lesson.title} </Header>
+                    <Header textAlign="center" as='h1'> {lesson.title} </Header>
                     <Divider/>
                     <div dangerouslySetInnerHTML={{__html: lesson.content}} />
 
