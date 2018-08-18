@@ -8,6 +8,7 @@ import {lesson_2_2_content} from "./Lesson_2_2";
 import {lesson_2_3_content} from "./Lesson_2_3";
 import {lesson_3_1_content} from "./Lesson_3_1";
 import {lesson_3_2_content} from "./Lesson_3_2";
+import {afterword_content} from "./Afterword";
 
 const LessonsAPI = {
 
@@ -40,6 +41,12 @@ const LessonsAPI = {
             lessons: [
                 {slug: "redemption-part-one", title: "Christ the Savior", content: lesson_3_1_content},
                 {slug: "redemption-part-two", title: "The New Covenant", content: lesson_3_2_content},
+            ]
+        },
+        {
+            groupTitle: 'Afterword',
+            lessons: [
+                {slug: "how-shall-we-live", title: "How now shall we live?", content: afterword_content},
             ]
         }
 
