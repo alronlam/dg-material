@@ -18,11 +18,11 @@ export const lesson_1_2_content = ""+
 "<br/><br/>" +
 
 
-"Humanity is made in God’s image -- both male and female (Genesis 1:26-27). To be an “image” of someone means to be a representative or representation of them. We see in Genesis that Adam and Eve were created by God to be the ones to show to the world who God is and what He is like. So we, human beings, are like God, though not fully, but only to some degree, and yet truly. This has a lot of important implications for us today. Here are a few of them:<br/>" +
+"Humanity is made in God’s image — both male and female (Genesis 1:26-27). To be an “image” of someone means to be a representative or representation of them. We see in Genesis that Adam and Eve were created by God to be the ones to show to the world who God is and what He is like. So we, human beings, are like God, though not fully, but only to some degree, and yet truly. This has a lot of important implications for us today. Here are a few of them:<br/>" +
 "<br/>" +
 
 "<b><i>Image of God: unique to humans</i></b><br/>" +
-"We, human beings, are special and above any creature or created thing. None of the animals or plants, or rocks or mountains, or stars or heavenly bodies, or any other of the things created -- no matter how wonderful they are -- are said to be created in His very image. Only humans have the unique privilege (and responsibility) of “imaging forth” God’s glory in that very special way. This makes human life utterly precious, and to be treated with much care and respect. This is also why God hates murder (see Genesis 9:6; see also 4:10).<br/>" +
+"We, human beings, are special and above any creature or created thing. None of the animals or plants, or rocks or mountains, or stars or heavenly bodies, or any other of the things created — no matter how wonderful they are — are said to be created in His very image. Only humans have the unique privilege (and responsibility) of “imaging forth” God’s glory in that very special way. This makes human life utterly precious, and to be treated with much care and respect. This is also why God hates murder (see Genesis 9:6; see also 4:10).<br/>" +
 "<br/>" +
 
 "<b><i>Image of God in man means rule over creation</i></b><br/>" +

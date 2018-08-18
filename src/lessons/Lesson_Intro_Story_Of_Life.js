@@ -14,16 +14,16 @@ export const lesson_intro_story_of_life_content =
     "<b><i>God Created</i></b>" +
     "<br/>" +
     "Everything starts with God (Genesis 1:1). In fact, God is the center of all things. Everything moves and exists around Him and His good, pleasing and perfect will (Romans 11:36, 12:2b). Great. Beautiful. Infinitely glorious. This is God!" +
-    "Then, this great, great God began to create. This is the beginning of the universe -- the beginning of life, and the birth of humanity.<br/>" +
+    "Then, this great, great God began to create. This is the beginning of the universe — the beginning of life, and the birth of humanity.<br/>" +
     "<br/>" +
     "<b><i>Man Sinned</i></b>" +
     "<br/>" +
-    "However, humanity soon disobeyed their Creator. This is called sin . From then on, all of humanity became sinful. All became sinners (no exception!), separated from God (Romans 3:23) and condemned to experience His righteous wrath -- eternal punishment in hell. This is eternal death (Romans 6:23a).<br/>" +
+    "However, humanity soon disobeyed their Creator. This is called sin . From then on, all of humanity became sinful. All became sinners (no exception!), separated from God (Romans 3:23) and condemned to experience His righteous wrath — eternal punishment in hell. This is eternal death (Romans 6:23a).<br/>" +
     "<br/>" +
     "<b><i>God Redeemed</i></b>" +
     "<br/>" +
-    "But God, being rich in mercy, out of His great love (Ephesians 2:4), sent a Savior -- Jesus Christ -- who came to: " +
-    "Live a perfect life (1 Peter 2:22), die a sacrificial death (1 Peter 2:24; Romans 5:8), and rise again to life (John 2:22), for the sake of those who will believe in him as Savior and Lord (John 3:16) -- this is salvation. Those who believe have been forgiven forever (Ephesians 1:7), and are given the right to become blessed children of God (John 1:12), and have received life, life that continues beyond death… indeed, eternal life in God’s presence(John 5:24, 1 John 3:14), fully and forever (Psalm 16:11)!<br/>" +
+    "But God, being rich in mercy, out of His great love (Ephesians 2:4), sent a Savior — Jesus Christ — who came to: " +
+    "Live a perfect life (1 Peter 2:22), die a sacrificial death (1 Peter 2:24; Romans 5:8), and rise again to life (John 2:22), for the sake of those who will believe in him as Savior and Lord (John 3:16) — this is salvation. Those who believe have been forgiven forever (Ephesians 1:7), and are given the right to become blessed children of God (John 1:12), and have received life, life that continues beyond death… indeed, eternal life in God’s presence(John 5:24, 1 John 3:14), fully and forever (Psalm 16:11)!<br/>" +
     "<br/>" +
     "<h3>How, then, should life be lived?</h3>" +
     "Life, then, must be lived by faith in Jesus Christ (Romans 1:17). Faith or believing in Jesus means trusting in Him alone for your salvation (1 Timothy 2:5), acknowledging and turning away from your sins (Acts 3:19), making a decision to give your whole life to Him as your Lord (Romans 10:9), and delighting in and treasuring Him as the source of perfect joy (Matthew 13:44; Psalm 16:11). <br/>" +
