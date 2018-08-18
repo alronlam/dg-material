@@ -1,6 +1,7 @@
 export const lesson_1_1_content = ""+
 "<h3>LEAD ON</h3>" +
 "Question: " +
+"<br/>" +
 "What is your favourite book? Give a summary of what the book is all about.<br/>" +
 "<br/>" +
 
