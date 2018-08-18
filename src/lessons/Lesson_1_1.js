@@ -46,6 +46,6 @@ export const lesson_1_1_content = ""+
 
 "<h3>LIVE OUT</h3>" +
 "<ul>"+
-"<li>Make a habit of reading the Bible, regarding it as the highest authority over your life and your beliefs</li>" +
+"<li>Make a habit of reading the Bible, regarding it as the highest authority over your life and your beliefs.</li>" +
 "<li>Prayerfully prepare for each lesson, asking God to grant you insight into and openness to His promptings.</li>" +
 "</ul>"
