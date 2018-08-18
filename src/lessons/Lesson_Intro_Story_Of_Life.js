@@ -3,7 +3,7 @@ export const lesson_intro_story_of_life_content =
 "Everyone enjoys a good story. Good thing every one of us has our own stories to tell—even our own “life’s story,” so to speak. But wouldn’t it be wonderful to know how each one’s individual story is connected with those of others’? We believe that, like a quilt that is sewn together by patches of different colors and designs, we are all attached to a broad canvas that unites the patches of our lives together to form a blanket of a beautiful and meaningful pattern. This beautiful “quilt” of connected stories is what we can call the <b>story of life</b>. So..." +
 "<br/><br/>" +
 "<center>" +
-"<img class='ui  image' src='https://i.imgur.com/Xa57XsJ.jpg'>" +
+"<img class='ui  image' src='https://i.imgur.com/frASOBl.jpg'>" +
 "</center>" +
 
 "<br/>" +
