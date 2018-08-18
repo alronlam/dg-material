@@ -22,14 +22,14 @@ const LessonsAPI = {
             ]
         },
         {
-            groupTitle: 'Lesson 1: Creation',
+            groupTitle: 'Starter Pack Lesson 1: Creation',
             lessons: [
                 {slug: "creation-part-one", title: "The Author of Life", content: lesson_1_1_content},
                 {slug: "creation-part-two", title: "Made in His Image and Likeness", content: lesson_1_2_content},
             ]
         },
         {
-            groupTitle: 'Lesson 2: Fall',
+            groupTitle: 'Starter Pack Lesson 2: Fall',
             lessons: [
                 {slug: "fall-part-one", title: "Original Sin", content: lesson_2_1_content},
                 {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: lesson_2_2_content},
@@ -37,7 +37,7 @@ const LessonsAPI = {
             ]
         },
         {
-            groupTitle: 'Lesson 3: Redemption',
+            groupTitle: 'Starter Pack Lesson 3: Redemption',
             lessons: [
                 {slug: "redemption-part-one", title: "Christ the Savior", content: lesson_3_1_content},
                 {slug: "redemption-part-two", title: "The New Covenant", content: lesson_3_2_content},
