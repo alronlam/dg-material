@@ -60,4 +60,8 @@ export const afterword_content = "" +
 "Charles W. Colson" + "<br/>" +
 "Nancy R. Pearcey" + "<br/>" +
 "April 1999" + "<br/>" +
-"Washington, D.C." + "<br/>" 
+"Washington, D.C." + "<br/>" +
+
+"<div class='ui divider'></div>" +
+
+"This is an excerpt of the introduction to the book How Now Shall We Live by Charles Colson and Nancy Pearcey. We believe the thoughts and exhortations of Colson and Pearcey in the said book are directly in line with the major ideas and principles behind this discipleship material; and reading this excerpt (even the whole book, for that matter) would be beneficial to anyone who would want to “dig a little deeper.” Though chunks of a considerable amount of content were cut to suit our purposes, the editing done did not in any way alter the authors’ general intent. Editing also included a rearrangement of words to maintain fluency of thought, and replacement of a couple of words here and there to contextualize the piece of writing to a more general/broader audience. (The introduction was originally written against the backdrop of Western/North-American events and culture, hence directly and explicitly addressed Americans as its immediate readers.) All italicizations in the excerpt are the authors’."
