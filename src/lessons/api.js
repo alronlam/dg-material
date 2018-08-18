@@ -1,4 +1,5 @@
-import {lesson_intro_content} from "./Lesson_Intro";
+import {preface_content} from "./Preface";
+import {lesson_intro_story_of_life_content} from "./Lesson_Intro_Story_Of_Life";
 import {lesson_1_1_content} from "./Lesson_1_1";
 import {lesson_1_2_content} from "./Lesson_1_2";
 import {lesson_2_1_content} from "./Lesson_2_1";
@@ -13,7 +14,9 @@ const LessonsAPI = {
         {
             groupTitle: 'Introduction',
             lessons: [
-                {slug: "lol-intro", title: "The Story of Life", content: lesson_intro_content},
+                {slug:"lol-preface", title: "Preface", content: preface_content},
+                {slug:"material-usage", title: "How to Facilitate the use of this Material", content: lesson_intro_story_of_life_content},
+                {slug: "story-of-life", title: "The Story of Life", content: lesson_intro_story_of_life_content},
             ]
         },
         {

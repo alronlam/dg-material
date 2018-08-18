@@ -1,4 +1,4 @@
-export const lesson_intro_content =
+export const lesson_intro_story_of_life_content =
     "<h3>What is the story of life?</h3>"+
     "Your whole life depends on how you answer this question. You live your life according to the story you believe you are a part of. Like these, for example:<br/>" +
     "<br/>" +
