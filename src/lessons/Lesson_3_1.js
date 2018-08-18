@@ -6,7 +6,7 @@ export const lesson_3_1_content = ""+
 "<br/>" +
 
 "<center>" +
-"<img src='https://i.imgur.com/gVd3rIl.png' />" +
+"<img class='ui  image' src='https://i.imgur.com/gVd3rIl.png'>" +
 "</center>" +
 
 "<h3>OPEN WORD</h3>" +
