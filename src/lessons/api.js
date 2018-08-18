@@ -16,35 +16,25 @@ const LessonsAPI = {
         {
             groupTitle: 'Introduction',
             lessons: [
-                {slug:"lol-preface", title: "Preface", content: preface_content},
-                {slug:"material-usage", title: "How to Facilitate the use of this Material", content: usage_content},
-                {slug: "story-of-life", title: "The Story of Life", content: lesson_intro_story_of_life_content},
+                {slug:"lol-preface", title: "The Discipleship Roadmap", content: preface_content},
+                {slug:"material-usage", title: "How to Use this Material", content: usage_content},
             ]
         },
         {
-            groupTitle: 'Starter Pack Lesson 1: Creation',
-            lessons: [
-                {slug: "creation-part-one", title: "The Author of Life", content: lesson_1_1_content},
-                {slug: "creation-part-two", title: "Made in His Image and Likeness", content: lesson_1_2_content},
+            groupTitle: 'Starter Pack',
+            lessons:[
+                {slug: "story-of-life", title: "Lesson 1: The Story of Life", content: lesson_intro_story_of_life_content},
+                {slug: "creation-part-one", title: "Lesson 2: Creation Part 1", content: lesson_1_1_content},
+                {slug: "creation-part-two", title: "Lesson 3: Creation Part 2", content: lesson_1_2_content},
+                {slug: "fall-part-one", title: "Lesson 4: Fall Part 1", content: lesson_2_1_content},
+                {slug: "fall-part-two", title: "Lesson 5: Fall Part 2", content: lesson_2_2_content},
+                {slug: "fall-part-three", title: "Lesson 6: Fall Part 3", content: lesson_2_3_content},
+                {slug: "redemption-part-one", title: "Lesson 7: Redemption Part 1", content: lesson_3_1_content},
+                {slug: "redemption-part-two", title: "Lesson 8: Redemption Part 2", content: lesson_3_2_content},
             ]
         },
         {
-            groupTitle: 'Starter Pack Lesson 2: Fall',
-            lessons: [
-                {slug: "fall-part-one", title: "Original Sin", content: lesson_2_1_content},
-                {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: lesson_2_2_content},
-                {slug: "fall-part-three", title: "Consequences of Sin - Part Two", content: lesson_2_3_content},
-            ]
-        },
-        {
-            groupTitle: 'Starter Pack Lesson 3: Redemption',
-            lessons: [
-                {slug: "redemption-part-one", title: "Christ the Savior", content: lesson_3_1_content},
-                {slug: "redemption-part-two", title: "The New Covenant", content: lesson_3_2_content},
-            ]
-        },
-        {
-            groupTitle: 'Afterword',
+            groupTitle: 'Appendix',
             lessons: [
                 {slug: "how-shall-we-live", title: "How now shall we live?", content: afterword_content},
             ]
