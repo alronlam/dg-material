@@ -1,4 +1,6 @@
-import {lesson_intro_content} from "./Lesson_Intro";
+import {preface_content} from "./Preface";
+import {usage_content} from "./Usage";
+import {lesson_intro_story_of_life_content} from "./Lesson_Intro_Story_Of_Life";
 import {lesson_1_1_content} from "./Lesson_1_1";
 import {lesson_1_2_content} from "./Lesson_1_2";
 import {lesson_2_1_content} from "./Lesson_2_1";
@@ -6,6 +8,7 @@ import {lesson_2_2_content} from "./Lesson_2_2";
 import {lesson_2_3_content} from "./Lesson_2_3";
 import {lesson_3_1_content} from "./Lesson_3_1";
 import {lesson_3_2_content} from "./Lesson_3_2";
+import {afterword_content} from "./Afterword";
 
 const LessonsAPI = {
 
@@ -13,29 +16,27 @@ const LessonsAPI = {
         {
             groupTitle: 'Introduction',
             lessons: [
-                {slug: "lol-intro", title: "The Story of Life", content: lesson_intro_content},
+                {slug:"lol-preface", title: "The Discipleship Roadmap", content: preface_content},
+                {slug:"material-usage", title: "How to Use this Material", content: usage_content},
             ]
         },
         {
-            groupTitle: 'Lesson 1: Creation',
-            lessons: [
-                {slug: "creation-part-one", title: "The Author of Life", content: lesson_1_1_content},
-                {slug: "creation-part-two", title: "Made in His Image and Likeness", content: lesson_1_2_content},
+            groupTitle: 'Starter Pack',
+            lessons:[
+                {slug: "story-of-life", title: "Lesson 1: The Story of Life", content: lesson_intro_story_of_life_content},
+                {slug: "creation-part-one", title: "Lesson 2: Creation Part 1", content: lesson_1_1_content},
+                {slug: "creation-part-two", title: "Lesson 3: Creation Part 2", content: lesson_1_2_content},
+                {slug: "fall-part-one", title: "Lesson 4: Fall Part 1", content: lesson_2_1_content},
+                {slug: "fall-part-two", title: "Lesson 5: Fall Part 2", content: lesson_2_2_content},
+                {slug: "fall-part-three", title: "Lesson 6: Fall Part 3", content: lesson_2_3_content},
+                {slug: "redemption-part-one", title: "Lesson 7: Redemption Part 1", content: lesson_3_1_content},
+                {slug: "redemption-part-two", title: "Lesson 8: Redemption Part 2", content: lesson_3_2_content},
             ]
         },
         {
-            groupTitle: 'Lesson 2: Fall',
+            groupTitle: 'Appendix',
             lessons: [
-                {slug: "fall-part-one", title: "Original Sin", content: lesson_2_1_content},
-                {slug: "fall-part-two", title: "Consequences of Sin - Part One", content: lesson_2_2_content},
-                {slug: "fall-part-three", title: "Consequences of Sin - Part Two", content: lesson_2_3_content},
-            ]
-        },
-        {
-            groupTitle: 'Lesson 3: Redemption',
-            lessons: [
-                {slug: "redemption-part-one", title: "Christ the Savior", content: lesson_3_1_content},
-                {slug: "redemption-part-two", title: "The New Covenant", content: lesson_3_2_content},
+                {slug: "how-shall-we-live", title: "How now shall we live?", content: afterword_content},
             ]
         }
 
@@ -47,7 +48,6 @@ const LessonsAPI = {
 
         this.groupedLessons.forEach(function (group) {
             group.lessons.forEach(function (lesson) {
-                console.log(lesson.slug === slug)
                 if (lesson.slug === slug) {
                     matchedLesson = lesson
                 }
