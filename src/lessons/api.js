@@ -58,7 +58,6 @@ const LessonsAPI = {
 
         this.groupedLessons.forEach(function (group) {
             group.lessons.forEach(function (lesson) {
-                console.log(lesson.slug === slug)
                 if (lesson.slug === slug) {
                     matchedLesson = lesson
                 }
