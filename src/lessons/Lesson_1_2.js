@@ -1,6 +1,7 @@
 export const lesson_1_2_content = ""+
 "<h3>LEAD ON</h3>" +
 "Question: " +
+"<br/>" +
 "Have you experienced being expected by your family to do something or be someone in order to represent them? <br/>" +
 "<br/>" +
 
@@ -29,7 +30,7 @@ export const lesson_1_2_content = ""+
 "<br/>" +
 
 "<b><i>Image of God in man means responsibility</i></b><br/>" +
-"We, human beings, have a special assignment or role from God, which renders us responsible for our actions and accountable to the One whose image our lives are supposed to portray. Because of this, we face judgement at the end of our lives in this present age, according to whether we have done well or not (see Hebrews 9:27).Animals like our pet dogs, for example, will not be put on trial for injuring a person. Actually, in such a situation, the most obvious question will be, “Who’s the dog’s owner?”" +
+"We, human beings, have a special assignment or role from God, which renders us responsible for our actions and accountable to the One whose image our lives are supposed to portray. Because of this, we face judgement at the end of our lives in this present age, according to whether we have done well or not (see Hebrews 9:27). Animals like our pet dogs, for example, will not be put on trial for injuring a person. Actually, in such a situation, the most obvious question will be, “Who’s the dog’s owner?”" +
 "<br/><br/>" +
 
 "<b><i>Image of God in man’s family life</i></b><br/>" +
