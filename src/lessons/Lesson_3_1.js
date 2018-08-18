@@ -5,6 +5,9 @@ export const lesson_3_1_content = ""+
 "In many ways, Jesus is “foreshadowed” as the fulfillment of many promises and anticipations in the Old Testament .<br/>" +
 "<br/>" +
 
+"<center>" +
+"<img src='https://i.imgur.com/gVd3rIl.png' />" +
+"</center>" +
 
 "<h3>OPEN WORD</h3>" +
 "<b><i>The Redemption Story</i></b><br/>" +
