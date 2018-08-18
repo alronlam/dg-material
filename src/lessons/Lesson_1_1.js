@@ -11,7 +11,7 @@ export const lesson_1_1_content = ""+
 "<br/>" +
 
 "<h3>OPEN WORD</h3>" +
-"<b><i>Acts 3:15</i></b><br/>"+
+"<b><i>Read Acts 3:15</i></b><br/>"+
 "“…[Y]ou killed the Author of life, whom God raised from the dead. To this we are witnesses.” <br/>" +
 "<br/>" +
 
@@ -25,25 +25,23 @@ export const lesson_1_1_content = ""+
 "Indeed, He is the Author of life because He is not just human, but also divine. Read: <br/>" +
 "<br/>" +
 
-"<b><i>Genesis 1:1</i></b><br/>" +
+"<b><i>Read Genesis 1:1</i></b><br/>" +
 "“In the beginning God created the heavens and the earth”<br/>" +
 "<br/>" +
 
-"<b><i>John 1:1-3</i></b><br/>" +
+"<b><i>Read John 1:1-3; 14</i></b><br/>" +
 "“In the beginning was the Word, and the Word was with God, and the Word was God. 2 He was in the beginning with God. 3 All things were made through him, and without him was not anything made that was made.”<br/>" +
-"<br/>" +
 
-"<b><i>John 1:14</i></b><br/>" +
 "“And the Word became flesh and dwelt among us, and we have seen his glory, glory as the only Son from the Father, full of grace and truth”<br/>" +
 "<br/>" +
 
-"He was the eternal Word (in John 1:1-14) who was with God and who was indeed God (John 1:1-2), and the One through which everything that exists was made (John 1:3). As the story goes, this Word took on flesh, and dwelled among men to live  — and even die — as a man. But, to further display His divine power, He then resurrected back to life after three days! <br/>" +
+"He was the eternal <i>Word</i> (in John 1:1-14) who was <i>with</i> God and who was <i>indeed</i> God (John 1:1-2), and the One through which everything that exists was made (John 1:3). As the story goes, this Word took on flesh, and dwelled among men to live  — and even die — as a man. But, to further display His divine power, He then resurrected back to life after three days! <br/>" +
 "<br/>" +
 
 "Since Jesus is God, then He is and has been there since there was yet nothing – nothing but the Triune God – until this God decided to create (Genesis 1:1)." +
 "<br/><br/>" +
 
-"So, all of God’s creation was created according to His assigned meaning and purpose, sealed with His imprint and design. If Jesus is the Author then it is His intended purposes and plans for all things, including the lives of individuals like you and me, which must be the ultimate standard. We do not, then, get to decide which is true for us, or decide what life means for ourselves. If we want to understand life and how to live it the right way, we go nowhere else but to God through His Son, the Creator and Author of life.<br/>" +
+"So, all of God’s creation was created according to His assigned meaning and purpose, sealed with His imprint and design. If Jesus is the Author then it is His intended purposes and plans for all things — including the lives of individuals like you and me — which must be the ultimate standard. We do not, then, get to decide which is true for us, or decide what life means for ourselves. If we want to understand life and how to live it the right way, we go nowhere else but to God through His Son, the Creator and Author of life.<br/>" +
 "<br/>" +
 
 "<h3>LIVE OUT</h3>" +
