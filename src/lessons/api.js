@@ -8,6 +8,9 @@ import {lesson_2_2_content} from "./starter_pack/Lesson_2_2";
 import {lesson_2_3_content} from "./starter_pack/Lesson_2_3";
 import {lesson_3_1_content} from "./starter_pack/Lesson_3_1";
 import {lesson_3_2_content} from "./starter_pack/Lesson_3_2";
+
+import {lordship_lesson_1_content} from "./lordship/Lesson_1"
+
 import {afterword_content} from "./Afterword";
 
 const LessonsAPI = {
@@ -31,6 +34,12 @@ const LessonsAPI = {
                 {slug: "fall-part-three", title: "Lesson 6: Fall Part 3", content: lesson_2_3_content},
                 {slug: "redemption-part-one", title: "Lesson 7: Redemption Part 1", content: lesson_3_1_content},
                 {slug: "redemption-part-two", title: "Lesson 8: Redemption Part 2", content: lesson_3_2_content},
+            ]
+        },
+        {
+            groupTitle: 'Lordship',
+            lessons:[
+                {slug: "repentance-obedience", title:"Lesson 1: Repentance and Obedience", content: lordship_lesson_1_content}
             ]
         },
         {
