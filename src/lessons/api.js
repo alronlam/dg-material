@@ -10,6 +10,7 @@ import {lesson_3_1_content} from "./starter_pack/Lesson_3_1";
 import {lesson_3_2_content} from "./starter_pack/Lesson_3_2";
 
 import {lordship_lesson_1_content} from "./lordship/Lesson_1"
+import {lordship_lesson_2_content} from "./lordship/Lesson_2"
 
 import {afterword_content} from "./Afterword";
 
@@ -39,7 +40,8 @@ const LessonsAPI = {
         {
             groupTitle: 'Lordship',
             lessons:[
-                {slug: "repentance-obedience", title:"Lesson 1: Repentance and Obedience", content: lordship_lesson_1_content}
+                {slug: "repentance-obedience", title:"Lesson 1: Repentance and Obedience", content: lordship_lesson_1_content},
+                {slug: "regeneration", title:"Lesson 2: Regeneration", content: lordship_lesson_2_content}
             ]
         },
         {
