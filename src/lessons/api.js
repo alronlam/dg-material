@@ -14,7 +14,7 @@ import {lordship_lesson_2_content} from "./lordship/Lesson_2"
 import {lordship_lesson_3_content} from "./lordship/Lesson_3"
 import {lordship_lesson_4_content} from "./lordship/Lesson_4"
 import {lordship_lesson_5_content} from "./lordship/Lesson_5"
-
+import {lordship_lesson_6_content} from "./lordship/Lesson_6"
 
 import {afterword_content} from "./Afterword";
 
@@ -48,7 +48,9 @@ const LessonsAPI = {
                 {slug: "regeneration", title:"Lesson 2: Regeneration", content: lordship_lesson_2_content},
                 {slug: "justification", title:"Lesson 3: Justification", content: lordship_lesson_3_content},
                 {slug: "solus-christus", title: "Lesson 4: Solus Christus (In Christ Alone)", content: lordship_lesson_4_content},
-                {slug: "sola-gratia", title: "Lesson 5: Sola Gratia (By Grace Alone)", content: lordship_lesson_5_content}            
+                {slug: "sola-gratia", title: "Lesson 5: Sola Gratia (By Grace Alone)", content: lordship_lesson_5_content},
+                {slug: "sola-fide", title: "Lesson 6: Sola Fide (Through Faith Alone)", content: lordship_lesson_6_content},
+                              
             ]
         },
         {
