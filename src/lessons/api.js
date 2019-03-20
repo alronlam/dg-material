@@ -44,7 +44,7 @@ const LessonsAPI = {
             ]
         },
         {
-            groupTitle: 'Lordship',
+            groupTitle: 'Lordship of Jesus',
             lessons:[
                 {slug: "repentance-obedience", title:"Lesson 1: Repentance and Obedience", content: lordship_lesson_1_content},
                 {slug: "regeneration", title:"Lesson 2: Regeneration", content: lordship_lesson_2_content},
