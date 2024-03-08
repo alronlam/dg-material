@@ -1,5 +1,5 @@
-import React, {Component} from 'react'
-import {Accordion, Icon, List} from 'semantic-ui-react'
+import React, { Component } from 'react'
+import { Accordion, Icon, List } from 'semantic-ui-react'
 
 
 export default class LessonGroups extends Component {
@@ -8,7 +8,7 @@ export default class LessonGroups extends Component {
     constructor(props) {
         super(props)
 
-        const {groups} = props
+        const { groups } = props
 
         this.state = {
             activeIndex: -1,
@@ -17,28 +17,28 @@ export default class LessonGroups extends Component {
     }
 
     handleClick = (e, titleProps) => {
-        const {index} = titleProps
-        const {activeIndex} = this.state
+        const { index } = titleProps
+        const { activeIndex } = this.state
         const newIndex = activeIndex === index ? -1 : index
 
-        this.setState({activeIndex: newIndex})
+        this.setState({ activeIndex: newIndex })
     }
 
     renderLesson(lesson) {
         return (
-            <List.Item as='a' key={lesson.slug} href={lesson.slug}>{lesson.title}</List.Item>
+            <List.Item as='a' key={lesson.slug} href={`#${lesson.slug}`}>{lesson.title}</List.Item>
         )
     }
 
     renderGroup(group, index) {
-        const {groupTitle} = group
-        const {lessons} = group
-        const {activeIndex} = this.state
+        const { groupTitle } = group
+        const { lessons } = group
+        const { activeIndex } = this.state
 
         return (
             <div>
                 <Accordion.Title active={activeIndex === index} index={index} onClick={this.handleClick}>
-                    <Icon name='dropdown'/>
+                    <Icon name='dropdown' />
                     {groupTitle}
                 </Accordion.Title>
                 <Accordion.Content active={activeIndex === index}>
@@ -51,7 +51,7 @@ export default class LessonGroups extends Component {
     }
 
     render() {
-        const {groups} = this.state
+        const { groups } = this.state
 
         return (
             <Accordion fluid styled>
